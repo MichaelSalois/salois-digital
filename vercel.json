@@ -1,6 +1,6 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
+  "trailingSlash": true,
   "redirects": [
     { "source": "/digital-marketing-for-home-services/plumbing/:path*", "destination": "/digital-marketing-for-plumbers", "statusCode": 301 },
     { "source": "/digital-marketing-for-home-services/hvac/:path*", "destination": "/digital-marketing-for-hvac", "statusCode": 301 },
