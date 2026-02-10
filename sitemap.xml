@@ -1,55 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://saloisdigital.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://saloisdigital.com/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/pricing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/industries-we-serve/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-services/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-services/google-ads-marketing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-services/organic-search-marketing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-services/ai-voice-agents/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-services/website-development/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-home-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-beauty-and-wellness/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-automotive/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-event-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-medical/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-financial-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-auto-ac-repair/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-auto-repair-shops/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-car-detailing/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-mobile-mechanics/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-tire-shops/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-windshield-repair/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-barber-shops/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-gyms/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-hair-salons/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-massage-therapists/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-med-spas/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-nail-salons/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-caterers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-djs/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-photographers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-rental-companies/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-venues/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-wedding-planners/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-bookkeepers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-credit-repair/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-financial-advisors/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-insurance-agencies/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-mortgage-brokers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-tax-and-accounting/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-electricians/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-hvac/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-landscapers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-pest-control/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-plumbers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-roofers/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-chiropractors/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-dentists/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-dermatologists/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-medical-specialties/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-optometrists/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://saloisdigital.com/digital-marketing-for-orthodontists/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url>
+<loc>https://saloisdigital.com/</loc>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/about/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/contact/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/pricing/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/privacy-policy/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/terms-of-service/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/industries-we-serve/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-services/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-services/google-ads-marketing/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-services/organic-search-marketing/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-services/ai-voice-agents/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-services/website-development/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-home-services/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-beauty-and-wellness/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-automotive/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-event-services/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-medical/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-financial-services/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-auto-ac-repair/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-auto-repair-shops/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-car-detailing/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-mobile-mechanics/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-tire-shops/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-windshield-repair/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-barber-shops/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-gyms/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-hair-salons/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-massage-therapists/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-med-spas/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-nail-salons/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-caterers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-djs/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-photographers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-rental-companies/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-venues/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-wedding-planners/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-bookkeepers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-credit-repair/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-financial-advisors/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-insurance-agencies/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-mortgage-brokers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-tax-and-accounting/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-electricians/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-hvac/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-landscapers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-pest-control/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-plumbers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-roofers/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-chiropractors/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-dentists/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-dermatologists/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-medical-specialties/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-optometrists/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://saloisdigital.com/digital-marketing-for-orthodontists/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
 </urlset>
