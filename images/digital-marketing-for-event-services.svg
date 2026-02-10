@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Calendar -->
+  <rect x="160" y="80" width="160" height="150" rx="12" fill="url(#gradFade)" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+  <rect x="160" y="80" width="160" height="35" rx="12" fill="url(#gradFade)" stroke="#a855f7" stroke-width="1.5" opacity="0.4"/>
+  <!-- Calendar dots -->
+  <circle cx="195" cy="140" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="225" cy="140" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="255" cy="140" r="6" fill="#00D4FF" opacity="0.5"/>
+  <circle cx="285" cy="140" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="195" cy="170" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="225" cy="170" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="255" cy="170" r="6" fill="#a855f7" opacity="0.3"/>
+  <circle cx="285" cy="170" r="6" fill="#a855f7" opacity="0.3"/>
+  <!-- Star/celebration -->
+  <polygon points="370,100 375,115 390,115 378,124 382,140 370,130 358,140 362,124 350,115 365,115" fill="#a855f7" opacity="0.4"/>
+  <!-- Phone -->
+  <rect x="60" y="240" width="55" height="85" rx="8" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="87" cy="265" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="87" y="269" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>

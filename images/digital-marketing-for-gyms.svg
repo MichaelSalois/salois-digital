@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Dumbbell -->
+  <rect x="140" y="155" width="200" height="10" rx="5" fill="url(#grad)" opacity="0.5"/>
+  <rect x="120" y="130" width="30" height="60" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <rect x="330" y="130" width="30" height="60" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <rect x="105" y="140" width="20" height="40" rx="4" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <rect x="355" y="140" width="20" height="40" rx="4" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <!-- Heart rate line -->
+  <polyline points="80,250 130,250 150,220 170,280 190,240 210,250 400,250" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.5"/>
+  <!-- Phone -->
+  <rect x="350" y="250" width="50" height="75" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="375" cy="272" r="7" fill="#00D4FF" opacity="0.8"/>
+  <text x="375" y="275" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">AI</text>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Glasses -->
+  <circle cx="190" cy="160" r="45" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <circle cx="290" cy="160" r="45" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <line x1="235" y1="155" x2="245" y2="155" stroke="url(#grad)" stroke-width="2"/>
+  <line x1="145" y1="155" x2="120" y2="148" stroke="url(#grad)" stroke-width="2"/>
+  <line x1="335" y1="155" x2="360" y2="148" stroke="url(#grad)" stroke-width="2"/>
+  <!-- Eye chart (abstract) -->
+  <text x="240" y="260" text-anchor="middle" fill="#00D4FF" font-size="24" font-weight="bold" opacity="0.4">E</text>
+  <text x="225" y="285" text-anchor="middle" fill="#00D4FF" font-size="16" opacity="0.3">F P</text>
+  <text x="260" y="305" text-anchor="middle" fill="#00D4FF" font-size="12" opacity="0.2">T O Z</text>
+  <!-- Phone -->
+  <rect x="380" y="230" width="50" height="80" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="405" cy="255" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="405" y="259" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>

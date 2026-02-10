@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Barber pole -->
+  <rect x="210" y="70" width="60" height="220" rx="10" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <line x1="210" y1="100" x2="270" y2="130" stroke="#ef4444" stroke-width="8" opacity="0.3"/>
+  <line x1="210" y1="140" x2="270" y2="170" stroke="#0066FF" stroke-width="8" opacity="0.3"/>
+  <line x1="210" y1="180" x2="270" y2="210" stroke="#ef4444" stroke-width="8" opacity="0.3"/>
+  <line x1="210" y1="220" x2="270" y2="250" stroke="#0066FF" stroke-width="8" opacity="0.3"/>
+  <circle cx="240" cy="70" r="15" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <!-- Razor -->
+  <rect x="320" y="150" width="8" height="60" rx="2" fill="#00D4FF" opacity="0.5"/>
+  <rect x="310" y="140" width="28" height="15" rx="3" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1"/>
+  <!-- Phone -->
+  <rect x="80" y="230" width="50" height="80" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="105" cy="255" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="105" y="259" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>

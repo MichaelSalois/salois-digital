@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Windshield shape -->
+  <path d="M120 100 Q240 70 360 100 L380 260 Q240 280 100 260 Z" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <!-- Crack -->
+  <polyline points="240,140 255,170 245,190 260,220" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.5"/>
+  <line x1="250" y1="165" x2="270" y2="160" stroke="#ef4444" stroke-width="1.5" opacity="0.4"/>
+  <line x1="248" y1="185" x2="228" y2="190" stroke="#ef4444" stroke-width="1.5" opacity="0.4"/>
+  <!-- Repair tool -->
+  <circle cx="260" cy="180" r="15" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.5"/>
+  <circle cx="260" cy="180" r="5" fill="#00D4FF" opacity="0.5"/>
+  <!-- Phone -->
+  <rect x="380" y="230" width="50" height="80" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="405" cy="255" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="405" y="259" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>

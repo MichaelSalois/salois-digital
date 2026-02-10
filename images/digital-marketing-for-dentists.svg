@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Tooth -->
+  <path d="M210 100 Q200 100 195 120 Q190 150 200 180 Q210 220 215 250 Q220 270 225 250 L240 180 L255 250 Q260 270 265 250 Q280 220 280 180 Q290 150 285 120 Q280 100 270 100 Q255 90 240 100 Q225 90 210 100Z" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <!-- Sparkle on tooth -->
+  <circle cx="235" cy="140" r="5" fill="#00D4FF" opacity="0.6"/>
+  <line x1="230" y1="130" x2="240" y2="150" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <line x1="225" y1="140" x2="245" y2="140" stroke="#00D4FF" stroke-width="1" opacity="0.4"/>
+  <!-- Mirror tool -->
+  <line x1="350" y1="120" x2="350" y2="220" stroke="url(#grad)" stroke-width="2" opacity="0.5"/>
+  <circle cx="350" cy="120" r="15" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <!-- Phone -->
+  <rect x="70" y="230" width="50" height="80" rx="6" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="95" cy="255" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="95" y="259" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>

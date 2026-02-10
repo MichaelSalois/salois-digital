@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Phone -->
+  <rect x="180" y="60" width="120" height="200" rx="16" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <rect x="195" y="80" width="90" height="140" rx="8" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1"/>
+  <!-- AI brain/circuit -->
+  <circle cx="240" cy="140" r="30" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <circle cx="240" cy="140" r="12" fill="#00D4FF" opacity="0.5"/>
+  <text x="240" y="145" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">AI</text>
+  <!-- Sound waves -->
+  <path d="M130 120 Q120 140 130 160" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.5"/>
+  <path d="M115 110 Q100 140 115 170" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.3"/>
+  <path d="M100 100 Q80 140 100 180" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.2"/>
+  <path d="M350 120 Q360 140 350 160" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.5"/>
+  <path d="M365 110 Q380 140 365 170" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.3"/>
+  <path d="M380 100 Q400 140 380 180" fill="none" stroke="#00D4FF" stroke-width="2" opacity="0.2"/>
+  <!-- Calendar booking -->
+  <rect x="320" y="250" width="80" height="65" rx="8" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <rect x="330" y="265" width="15" height="12" rx="2" fill="#22c55e" opacity="0.5"/>
+  <rect x="350" y="265" width="15" height="12" rx="2" fill="#22c55e" opacity="0.5"/>
+  <rect x="370" y="265" width="15" height="12" rx="2" fill="url(#grad)" opacity="0.5"/>
+  <rect x="330" y="285" width="15" height="12" rx="2" fill="url(#grad)" opacity="0.3"/>
+  <rect x="350" y="285" width="15" height="12" rx="2" fill="url(#grad)" opacity="0.3"/>
+
+</svg>

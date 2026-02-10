@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- House -->
+  <path d="M240 60 L120 160 L360 160Z" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="2"/>
+  <rect x="160" y="160" width="160" height="100" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <rect x="210" y="200" width="60" height="60" rx="3" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1"/>
+  <!-- Tools wreath -->
+  <g opacity="0.4">
+    <line x1="80" y1="120" x2="110" y2="180" stroke="#00D4FF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="380" y1="130" x2="400" y2="100" stroke="#22c55e" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="390,200 385,185 395,185" fill="#f97316" opacity="0.5"/>
+  </g>
+  <!-- Phone -->
+  <rect x="370" y="240" width="55" height="85" rx="8" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="397" cy="265" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="397" y="269" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+  <rect x="380" y="283" width="35" height="4" rx="2" fill="url(#grad)" opacity="0.4"/>
+
+</svg>

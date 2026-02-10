@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0066FF"/>
+    </linearGradient>
+    <linearGradient id="gradFade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#050508" rx="16"/>
+  
+  <!-- Medical cross -->
+  <rect x="210" y="70" width="60" height="150" rx="8" fill="url(#gradFade)" stroke="#ef4444" stroke-width="2" opacity="0.5"/>
+  <rect x="165" y="115" width="150" height="60" rx="8" fill="url(#gradFade)" stroke="#ef4444" stroke-width="2" opacity="0.5"/>
+  <!-- Heartbeat -->
+  <polyline points="80,270 150,270 175,240 200,300 225,260 250,270 420,270" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.4"/>
+  <!-- Stethoscope -->
+  <path d="M340 140 Q360 140 360 160 Q360 180 340 180 Q320 180 320 160" fill="none" stroke="url(#grad)" stroke-width="2" opacity="0.5"/>
+  <circle cx="340" cy="185" r="6" fill="#00D4FF" opacity="0.4"/>
+  <!-- Phone -->
+  <rect x="370" y="240" width="55" height="85" rx="8" fill="url(#gradFade)" stroke="url(#grad)" stroke-width="1.5"/>
+  <circle cx="397" cy="265" r="8" fill="#00D4FF" opacity="0.8"/>
+  <text x="397" y="269" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AI</text>
+
+</svg>
