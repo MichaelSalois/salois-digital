@@ -97,11 +97,7 @@
       "destination": "/digital-marketing-for-wedding-planners",
       "statusCode": 301
     },
-    {
-      "source": "/digital-marketing-for-event-services/venues",
-      "destination": "/digital-marketing-for-venues",
-      "statusCode": 301
-    },
+{ "source": "/digital-marketing-for-event-services/venues/", "destination": "/digital-marketing-for-venues/", "statusCode": 301 },
     {
       "source": "/digital-marketing-for-event-services/photographers",
       "destination": "/digital-marketing-for-photographers",
