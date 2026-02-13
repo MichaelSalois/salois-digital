@@ -3,179 +3,183 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/digital-marketing-for-home-services/plumbing",
-      "destination": "/digital-marketing-for-plumbers",
+      "source": "/digital-marketing-for-home-services/plumbing/",
+      "destination": "/digital-marketing-for-plumbers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-home-services/hvac",
-      "destination": "/digital-marketing-for-hvac",
+      "source": "/digital-marketing-for-home-services/hvac/",
+      "destination": "/digital-marketing-for-hvac/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-home-services/electrical",
-      "destination": "/digital-marketing-for-electricians",
+      "source": "/digital-marketing-for-home-services/electrical/",
+      "destination": "/digital-marketing-for-electricians/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-home-services/landscaping",
-      "destination": "/digital-marketing-for-landscapers",
+      "source": "/digital-marketing-for-home-services/landscaping/",
+      "destination": "/digital-marketing-for-landscapers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-home-services/roofing",
-      "destination": "/digital-marketing-for-roofers",
+      "source": "/digital-marketing-for-home-services/roofing/",
+      "destination": "/digital-marketing-for-roofers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-home-services/pest-control",
-      "destination": "/digital-marketing-for-pest-control",
+      "source": "/digital-marketing-for-home-services/pest-control/",
+      "destination": "/digital-marketing-for-pest-control/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/hair-salons",
-      "destination": "/digital-marketing-for-hair-salons",
+      "source": "/digital-marketing-for-beauty-and-wellness/hair-salons/",
+      "destination": "/digital-marketing-for-hair-salons/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/barber-shops",
-      "destination": "/digital-marketing-for-barber-shops",
+      "source": "/digital-marketing-for-beauty-and-wellness/barber-shops/",
+      "destination": "/digital-marketing-for-barber-shops/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/med-spas",
-      "destination": "/digital-marketing-for-med-spas",
+      "source": "/digital-marketing-for-beauty-and-wellness/med-spas/",
+      "destination": "/digital-marketing-for-med-spas/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/massage-therapy",
-      "destination": "/digital-marketing-for-massage-therapists",
+      "source": "/digital-marketing-for-beauty-and-wellness/massage-therapy/",
+      "destination": "/digital-marketing-for-massage-therapists/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/nail-salons",
-      "destination": "/digital-marketing-for-nail-salons",
+      "source": "/digital-marketing-for-beauty-and-wellness/nail-salons/",
+      "destination": "/digital-marketing-for-nail-salons/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-beauty-and-wellness/gyms-and-fitness",
-      "destination": "/digital-marketing-for-gyms",
+      "source": "/digital-marketing-for-beauty-and-wellness/gyms-and-fitness/",
+      "destination": "/digital-marketing-for-gyms/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/auto-repair",
-      "destination": "/digital-marketing-for-auto-repair-shops",
+      "source": "/digital-marketing-for-automotive/auto-repair/",
+      "destination": "/digital-marketing-for-auto-repair-shops/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/car-detailing",
-      "destination": "/digital-marketing-for-car-detailing",
+      "source": "/digital-marketing-for-automotive/car-detailing/",
+      "destination": "/digital-marketing-for-car-detailing/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/tire-shops",
-      "destination": "/digital-marketing-for-tire-shops",
+      "source": "/digital-marketing-for-automotive/tire-shops/",
+      "destination": "/digital-marketing-for-tire-shops/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/windshield-repair",
-      "destination": "/digital-marketing-for-windshield-repair",
+      "source": "/digital-marketing-for-automotive/windshield-repair/",
+      "destination": "/digital-marketing-for-windshield-repair/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/mobile-mechanics",
-      "destination": "/digital-marketing-for-mobile-mechanics",
+      "source": "/digital-marketing-for-automotive/mobile-mechanics/",
+      "destination": "/digital-marketing-for-mobile-mechanics/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-automotive/auto-ac-repair",
-      "destination": "/digital-marketing-for-auto-ac-repair",
+      "source": "/digital-marketing-for-automotive/auto-ac-repair/",
+      "destination": "/digital-marketing-for-auto-ac-repair/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-event-services/wedding-planners",
-      "destination": "/digital-marketing-for-wedding-planners",
-      "statusCode": 301
-    },
-{ "source": "/digital-marketing-for-event-services/venues/", "destination": "/digital-marketing-for-venues/", "statusCode": 301 },
-    {
-      "source": "/digital-marketing-for-event-services/photographers",
-      "destination": "/digital-marketing-for-photographers",
+      "source": "/digital-marketing-for-event-services/wedding-planners/",
+      "destination": "/digital-marketing-for-wedding-planners/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-event-services/djs",
-      "destination": "/digital-marketing-for-djs",
+      "source": "/digital-marketing-for-event-services/venues/",
+      "destination": "/digital-marketing-for-venues/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-event-services/rental-companies",
-      "destination": "/digital-marketing-for-rental-companies",
+      "source": "/digital-marketing-for-event-services/photographers/",
+      "destination": "/digital-marketing-for-photographers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-event-services/caterers",
-      "destination": "/digital-marketing-for-caterers",
+      "source": "/digital-marketing-for-event-services/djs/",
+      "destination": "/digital-marketing-for-djs/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/dentistry",
-      "destination": "/digital-marketing-for-dentists",
+      "source": "/digital-marketing-for-event-services/rental-companies/",
+      "destination": "/digital-marketing-for-rental-companies/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/orthodontics",
-      "destination": "/digital-marketing-for-orthodontists",
+      "source": "/digital-marketing-for-event-services/caterers/",
+      "destination": "/digital-marketing-for-caterers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/chiropractic",
-      "destination": "/digital-marketing-for-chiropractors",
+      "source": "/digital-marketing-for-medical/dentistry/",
+      "destination": "/digital-marketing-for-dentists/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/dermatology",
-      "destination": "/digital-marketing-for-dermatologists",
+      "source": "/digital-marketing-for-medical/orthodontics/",
+      "destination": "/digital-marketing-for-orthodontists/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/optometry",
-      "destination": "/digital-marketing-for-optometrists",
+      "source": "/digital-marketing-for-medical/chiropractic/",
+      "destination": "/digital-marketing-for-chiropractors/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-medical/medical-specialties",
-      "destination": "/digital-marketing-for-medical-specialties",
+      "source": "/digital-marketing-for-medical/dermatology/",
+      "destination": "/digital-marketing-for-dermatologists/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/tax-and-accounting",
-      "destination": "/digital-marketing-for-tax-and-accounting",
+      "source": "/digital-marketing-for-medical/optometry/",
+      "destination": "/digital-marketing-for-optometrists/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/insurance-agencies",
-      "destination": "/digital-marketing-for-insurance-agencies",
+      "source": "/digital-marketing-for-medical/medical-specialties/",
+      "destination": "/digital-marketing-for-medical-specialties/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/mortgage-brokers",
-      "destination": "/digital-marketing-for-mortgage-brokers",
+      "source": "/digital-marketing-for-financial-services/tax-and-accounting/",
+      "destination": "/digital-marketing-for-tax-and-accounting/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/credit-repair",
-      "destination": "/digital-marketing-for-credit-repair",
+      "source": "/digital-marketing-for-financial-services/insurance-agencies/",
+      "destination": "/digital-marketing-for-insurance-agencies/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/financial-advisors",
-      "destination": "/digital-marketing-for-financial-advisors",
+      "source": "/digital-marketing-for-financial-services/mortgage-brokers/",
+      "destination": "/digital-marketing-for-mortgage-brokers/",
       "statusCode": 301
     },
     {
-      "source": "/digital-marketing-for-financial-services/bookkeeping",
-      "destination": "/digital-marketing-for-bookkeepers",
+      "source": "/digital-marketing-for-financial-services/credit-repair/",
+      "destination": "/digital-marketing-for-credit-repair/",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-marketing-for-financial-services/financial-advisors/",
+      "destination": "/digital-marketing-for-financial-advisors/",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-marketing-for-financial-services/bookkeeping/",
+      "destination": "/digital-marketing-for-bookkeepers/",
       "statusCode": 301
     }
   ]
