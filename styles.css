@@ -3680,3 +3680,36 @@ html, body {
   .lp-hero-copybox .hero-buttons { flex-direction: column; }
   .lp-cta-buttons { flex-direction: column; align-items: center; }
 }
+
+
+/* ============================================================
+   FIX: Audio Player Width Overflow (Homepage + LP)
+   Scoped to .demo-player-* classes only — no other CSS affected.
+   ============================================================ */
+
+/* Allow waveform bars to shrink instead of forcing 500px+ width */
+.demo-player-bar {
+  flex-shrink: 1;
+}
+
+/* Contain overflow at every level of the player */
+.demo-player-phone,
+.demo-player-wavearea,
+.demo-player-wavecontainer,
+.demo-player-wavebars {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* Grid children need min-width:0 to respect parent boundaries */
+.hero-split-playerbox,
+.lp-hero-playerbox {
+  min-width: 0;
+  overflow: hidden;
+}
+
+
+
+
+
+
