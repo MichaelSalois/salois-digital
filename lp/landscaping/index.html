@@ -16,6 +16,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css">
 
+  <!-- LP-ONLY mobile fixes (scoped to .lp-header and .lp-hero-boxes) -->
+  <style>
+    @media (max-width: 600px) {
+      /* Fix header overflow — stack logo row and CTA */
+      .lp-header-inner {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+      .lp-header-inner > div:first-child {
+        gap: 0.75rem !important;
+      }
+      .lp-header-inner .lp-back-link {
+        font-size: 0.75rem;
+      }
+      .lp-header-inner .nav-cta {
+        padding: 0.55rem 1.1rem;
+        font-size: 0.8rem;
+      }
+      /* Reverse boxes so AI demo player appears first on mobile */
+      .lp-hero-boxes {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+  </style>
+
   <!-- Google Analytics (GA4) + Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJSEK1SFDF"></script>
   <script>
