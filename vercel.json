@@ -181,6 +181,11 @@
       "source": "/digital-marketing-for-financial-services/bookkeeping/",
       "destination": "/digital-marketing-for-bookkeepers/",
       "statusCode": 301
+    },
+    {
+      "source": "/lp/landscaping/",
+      "destination": "/lsdemo/",
+      "statusCode": 301
     }
   ]
 }

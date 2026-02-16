@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Voice Agent Demo — Hear It Answer a Real Call | Salois Digital</title>
+  <meta name="description" content="Listen to our AI Voice Agent handle a real business call. It answers 24/7, captures lead details, and books appointments — for landscapers, plumbers, pool builders, and any service business.">
+  <meta name="keywords" content="AI answering service demo, AI voice agent small business, business phone answering, missed calls solution, AI receptionist demo">
+  <meta property="og:title" content="AI Voice Agent Demo — Hear It In Action">
+  <meta property="og:description" content="Listen to our AI Voice Agent handle a real business call. Works for any service business — landscaping, plumbing, excavation, pool building, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saloisdigital.com/lsdemo/">
+  <link rel="canonical" href="https://saloisdigital.com/lsdemo/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- LP-ONLY mobile fixes (scoped to .lp-header and .lp-hero-boxes) -->
+  <style>
+    @media (max-width: 600px) {
+      /* Keep header single-line by shrinking elements to fit */
+      .lp-header-inner {
+        gap: 0.5rem;
+        padding: 0.75rem 1rem;
+      }
+      .lp-header-inner > div:first-child {
+        gap: 0.5rem !important;
+        min-width: 0;
+      }
+      .lp-header-inner .logo {
+        font-size: 1rem;
+      }
+      .lp-header-inner .lp-back-link {
+        display: none;
+      }
+      .lp-header-inner .nav-cta {
+        padding: 0.5rem 1rem;
+        font-size: 0.78rem;
+        margin-left: auto;
+      }
+    }
+  </style>
+
+  <!-- Google Analytics (GA4) + Google Ads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJSEK1SFDF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GJSEK1SFDF');
+    gtag('config', 'AW-17950326064');
+  </script>
+
+  <!-- Click-to-call conversion listener -->
+  <script>
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a[href^="tel:"]');
+      if (link) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17950326064/w8ewCISS3PcbELD6sO9C',
+          'value': 1.0,
+          'currency': 'USD'
+        });
+      }
+    });
+  </script>
+
+  <!-- Meta Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '397479555614522');
+    fbq('track', 'PageView');
+    document.addEventListener('click', function(e) {
+      var link = e.target.closest('a[href^="tel:"], a[href*="contact"]');
+      if (link) { fbq('track', 'Contact'); }
+    });
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=397479555614522&ev=PageView&noscript=1"/></noscript>
+</head>
+<body>
+
+  <!-- ==================== MINIMAL HEADER (LOGO + BACK LINK + CTA) ==================== -->
+  <div class="lp-header">
+    <div class="lp-header-inner">
+      <div style="display:flex;align-items:center;gap:1.5rem;">
+        <a href="../" class="logo" aria-label="Salois Digital"><span>SALOIS</span><span>DIGITAL</span></a>
+        <a href="../" class="lp-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m7-7l-7 7 7 7"/></svg>
+          Back to Site
+        </a>
+      </div>
+      <a href="../contact/" class="nav-cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+        Get Started Free
+      </a>
+    </div>
+  </div>
+
+
+  <main>
+    <!-- ==================== HERO ==================== -->
+    <section class="lp-hero">
+      <div class="container">
+        <!-- FULL-WIDTH H1 -->
+        <div class="lp-hero-top">
+          <h1><span class="gradient-text">Hear Your AI Agent</span><br>Answer a Real Call</h1>
+          <p>This demo is built for a landscaping company &mdash; but the AI adapts to any service business. Plumbers, pool builders, excavators, auto shops, you name it.</p>
+          <p style="color: var(--electric-blue); font-weight: 600; font-size: 1.05rem; margin-top: 0.5rem;">Want to hear how it would sound for YOUR company? <a href="tel:8582154034" style="color: #fff; text-decoration: underline;">Call</a> or <a href="sms:8582154034" style="color: #fff; text-decoration: underline;">text me</a> &mdash; I'll build you a free custom demo.</p>
+        </div>
+
+        <!-- DEMO PLAYER — FULL WIDTH CENTERED -->
+        <div style="max-width: 520px; margin: 0 auto;">
+          <div class="lp-hero-copybox" style="text-align:center;">
+            <div class="lp-hero-copybox-label" style="justify-content:center;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              Hear It In Action
+            </div>
+            <h3>AI Answering a Landscaping Call</h3>
+            <p style="margin-bottom:1.25rem;">A real call to a landscaping business, handled entirely by our AI. Press play to hear it.</p>
+
+            <div class="demo-player-phone" id="phonePlayer">
+              <div class="demo-player-header">
+                <div class="demo-player-avatar">
+                  <div class="demo-player-pulse"></div>
+                  <div class="demo-player-pulse delay"></div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <div class="demo-player-info">
+                  <div class="demo-player-name">Green Valley Landscaping</div>
+                  <div class="demo-player-status">
+                    <span class="demo-player-dot"></span>
+                    <span id="statusText">Press play to listen</span>
+                  </div>
+                </div>
+                <div class="demo-player-badge">AI Agent</div>
+              </div>
+
+              <div class="demo-player-wavearea">
+                <div class="demo-player-wavecontainer" id="waveformContainer">
+                  <div class="demo-player-wavebars" id="waveformBars"></div>
+                </div>
+                <div class="demo-player-timerow">
+                  <span class="demo-player-time" id="currentTime">0:00</span>
+                  <span class="demo-player-time" id="totalTime">0:00</span>
+                </div>
+                <div class="demo-player-controls">
+                  <button class="demo-player-skipbtn" id="rewindBtn" aria-label="Rewind 10 seconds">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/><text x="12" y="16" text-anchor="middle" font-size="8" fill="currentColor" stroke="none" font-family="Outfit">10</text></svg>
+                  </button>
+                  <button class="demo-player-playbtn" id="playBtn" aria-label="Play demo">
+                    <svg id="playIcon" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg>
+                    <svg id="pauseIcon" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+                  </button>
+                  <button class="demo-player-skipbtn" id="forwardBtn" aria-label="Forward 10 seconds">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 11-2.13-9.36L23 10"/><text x="12" y="16" text-anchor="middle" font-size="8" fill="currentColor" stroke="none" font-family="Outfit">10</text></svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="demo-player-transcript">
+                <div class="demo-player-transcript-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="demo-player-transcript-text">
+                  <strong>Every call answered.</strong> Name, property address, service needed, and follow-up scheduled &mdash; without you touching the phone.
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-player-features">
+              <div class="demo-player-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>24/7 Coverage</div>
+              <div class="demo-player-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Books Appointments</div>
+              <div class="demo-player-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10m6 10V4M6 20v-4"/></svg>Captures Every Lead</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <audio id="audioPlayer" preload="metadata">
+        <source src="../landscaping-demo.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+
+    <!-- ==================== PAIN POINTS ==================== -->
+    <section class="lp-pain">
+      <div class="container">
+        <h2 class="section-title" style="font-size:1.75rem;">The Calls You're Missing Are Costing You Thousands</h2>
+        <p class="section-subtitle" style="margin-bottom:2rem;">Every unanswered call is a job that goes to your competitor.</p>
+        <div class="lp-pain-grid">
+          <div class="lp-pain-card">
+            <div class="lp-pain-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <h3>Missed Calls = Lost Jobs</h3>
+            <p>80% of callers who hit voicemail hang up and call someone else. During your busiest season, that could be 5-10 jobs a week walking away.</p>
+          </div>
+          <div class="lp-pain-card">
+            <div class="lp-pain-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <h3>No Time to Call Back</h3>
+            <p>You're on a job, running a crew, or driving between sites. By the time you call back, they've already booked someone else.</p>
+          </div>
+          <div class="lp-pain-card">
+            <div class="lp-pain-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10m6 10V4M6 20v-4"/></svg></div>
+            <h3>Paying for Ads, Losing Leads</h3>
+            <p>If you're running Google Ads or mailers and calls go unanswered, you're paying for leads that never convert. The AI fixes that.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== BOTTOM CTA ==================== -->
+    <section class="lp-cta">
+      <div class="container">
+        <h2>Want This for Your Business?</h2>
+        <p>Call or text me and I'll build a free custom demo for your company &mdash; any industry, any service.</p>
+        <div class="lp-cta-buttons">
+          <a href="tel:8582154034" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Me — (858) 215-4034
+          </a>
+          <a href="sms:8582154034" class="btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            Text Me
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ==================== MINIMAL FOOTER ==================== -->
+  <div class="lp-footer">
+    <div class="container">
+      <p>&copy; 2026 <a href="../">Salois Digital</a>. All rights reserved. &nbsp;|&nbsp; <a href="../privacy-policy/">Privacy Policy</a> &nbsp;|&nbsp; <a href="../terms-of-service/">Terms of Service</a></p>
+    </div>
+  </div>
+
+
+  <!-- ==================== DEMO PLAYER SCRIPT ==================== -->
+  <script>
+    (function() {
+      const audio = document.getElementById('audioPlayer');
+      if (!audio) return;
+      const playBtn = document.getElementById('playBtn');
+      const playIcon = document.getElementById('playIcon');
+      const pauseIcon = document.getElementById('pauseIcon');
+      const currentTimeEl = document.getElementById('currentTime');
+      const totalTimeEl = document.getElementById('totalTime');
+      const statusText = document.getElementById('statusText');
+      const phonePlayer = document.getElementById('phonePlayer');
+      const waveformBars = document.getElementById('waveformBars');
+      const waveformContainer = document.getElementById('waveformContainer');
+
+      const barCount = 100;
+      for (let i = 0; i < barCount; i++) {
+        const base = Math.sin(i * 0.15) * 0.3 + 0.4;
+        const noise = Math.random() * 0.35;
+        const speech = (i > 5 && i < 95) ? 0.15 : 0;
+        const h = Math.max(0.08, Math.min(1, base + noise + speech));
+        const bar = document.createElement('div');
+        bar.className = 'demo-player-bar';
+        bar.style.height = (h * 64) + 'px';
+        waveformBars.appendChild(bar);
+      }
+
+      const bars = waveformBars.querySelectorAll('.demo-player-bar');
+
+      function formatTime(s) {
+        const m = Math.floor(s / 60);
+        const sec = Math.floor(s % 60);
+        return m + ':' + (sec < 10 ? '0' : '') + sec;
+      }
+
+      audio.addEventListener('loadedmetadata', () => { totalTimeEl.textContent = formatTime(audio.duration); });
+
+      audio.addEventListener('timeupdate', () => {
+        const pct = audio.currentTime / audio.duration;
+        currentTimeEl.textContent = formatTime(audio.currentTime);
+        const activeIndex = Math.floor(pct * barCount);
+        bars.forEach((bar, i) => { bar.classList.toggle('active', i <= activeIndex); });
+      });
+
+      audio.addEventListener('ended', () => {
+        playIcon.style.display = '';
+        pauseIcon.style.display = 'none';
+        phonePlayer.classList.remove('playing');
+        phonePlayer.classList.add('paused');
+        statusText.textContent = 'Call ended — replay?';
+      });
+
+      playBtn.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play();
+          playIcon.style.display = 'none';
+          pauseIcon.style.display = '';
+          phonePlayer.classList.add('playing');
+          phonePlayer.classList.remove('paused');
+          statusText.textContent = 'AI Agent handling call…';
+        } else {
+          audio.pause();
+          playIcon.style.display = '';
+          pauseIcon.style.display = 'none';
+          phonePlayer.classList.remove('playing');
+          phonePlayer.classList.add('paused');
+          statusText.textContent = 'Paused';
+        }
+      });
+
+      document.getElementById('rewindBtn').addEventListener('click', () => {
+        audio.currentTime = Math.max(0, audio.currentTime - 10);
+      });
+
+      document.getElementById('forwardBtn').addEventListener('click', () => {
+        audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
+      });
+
+      waveformContainer.addEventListener('click', (e) => {
+        const rect = waveformContainer.getBoundingClientRect();
+        const pct = (e.clientX - rect.left) / rect.width;
+        audio.currentTime = pct * audio.duration;
+        if (audio.paused) {
+          audio.play();
+          playIcon.style.display = 'none';
+          pauseIcon.style.display = '';
+          phonePlayer.classList.add('playing');
+          phonePlayer.classList.remove('paused');
+          statusText.textContent = 'AI Agent handling call…';
+        }
+      });
+    })();
+  </script>
+
+
+  <!-- ==================== SCHEMA MARKUP ==================== -->
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Voice Agent for Service Businesses",
+    "provider": {
+      "@type": "Organization",
+      "name": "Salois Digital",
+      "url": "https://saloisdigital.com/"
+    },
+    "description": "24/7 AI phone answering service for service businesses. Never miss a customer call again — the AI captures lead details, qualifies inquiries, and books appointments automatically.",
+    "serviceType": "AI Voice Agent",
+    "areaServed": {"@type": "Country", "name": "United States"}
+  }</script>
+
+</body>
+</html>
