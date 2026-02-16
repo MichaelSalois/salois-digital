@@ -16,10 +16,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
 
-  <!-- LP-ONLY mobile fixes (scoped to .lp-header and .lp-hero-boxes) -->
+  <!-- LP-ONLY mobile fixes -->
   <style>
     @media (max-width: 600px) {
-      /* Keep header single-line by shrinking elements to fit */
       .lp-header-inner {
         gap: 0.5rem;
         padding: 0.75rem 1rem;
@@ -52,15 +51,31 @@
     gtag('config', 'AW-17950326064');
   </script>
 
-  <!-- Click-to-call conversion listener -->
+  <!-- Click-to-call AND click-to-text conversion tracking (GA4 + Google Ads) -->
   <script>
     document.addEventListener('click', function(e) {
-      var link = e.target.closest('a[href^="tel:"]');
-      if (link) {
+      var callLink = e.target.closest('a[href^="tel:"]');
+      if (callLink) {
         gtag('event', 'conversion', {
           'send_to': 'AW-17950326064/w8ewCISS3PcbELD6sO9C',
           'value': 1.0,
           'currency': 'USD'
+        });
+        gtag('event', 'click_to_call', {
+          event_category: 'engagement',
+          event_label: 'lsdemo'
+        });
+      }
+      var smsLink = e.target.closest('a[href^="sms:"]');
+      if (smsLink) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17950326064/w8ewCISS3PcbELD6sO9C',
+          'value': 1.0,
+          'currency': 'USD'
+        });
+        gtag('event', 'click_to_text', {
+          event_category: 'engagement',
+          event_label: 'lsdemo'
         });
       }
     });
@@ -79,7 +94,7 @@
     fbq('init', '397479555614522');
     fbq('track', 'PageView');
     document.addEventListener('click', function(e) {
-      var link = e.target.closest('a[href^="tel:"], a[href*="contact"]');
+      var link = e.target.closest('a[href^="tel:"], a[href^="sms:"], a[href*="contact"]');
       if (link) { fbq('track', 'Contact'); }
     });
   </script>
@@ -333,6 +348,19 @@
           phonePlayer.classList.add('playing');
           phonePlayer.classList.remove('paused');
           statusText.textContent = 'AI Agent handling call…';
+        }
+      });
+
+      /* ---- Demo play tracker (fires once per page load) ---- */
+      var demoPlayed = false;
+      audio.addEventListener('play', function() {
+        if (!demoPlayed) {
+          demoPlayed = true;
+          gtag('event', 'demo_play', {
+            event_category: 'engagement',
+            event_label: 'lsdemo'
+          });
+          fbq('trackCustom', 'DemoPlay');
         }
       });
     })();
