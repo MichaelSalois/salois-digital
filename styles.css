@@ -254,6 +254,38 @@ header {
   padding: 0.5rem;
 }
 
+/* Nav Text Button (always visible — desktop in nav, mobile next to hamburger) */
+.nav-text-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--electric-blue);
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+.nav-text-btn:hover {
+  background: rgba(0, 212, 255, 0.15);
+  border-color: rgba(0, 212, 255, 0.4);
+}
+.nav-text-btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* Desktop: hide the mobile-only text button */
+.header-right-mobile { display: none; }
+
+/* Desktop: show the text button inside the nav */
+.desktop-nav .nav-text-btn { margin-left: 0.25rem; }
+
 
 /* ============================================================
    BUTTONS (SITE-WIDE)
@@ -787,6 +819,13 @@ footer {
   .desktop-nav { display: none; }
   .mobile-toggle { display: block; }
 
+  /* Show mobile text button + hamburger group */
+  .header-right-mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .desktop-nav.open {
     display: flex;
     flex-direction: column;
@@ -840,6 +879,9 @@ footer {
     width: 100%;
   }
 
+  /* Hide the text button inside the mobile nav overlay (it's already visible in the header) */
+  .desktop-nav.open .nav-text-btn { display: none; }
+
   .hero h1 { font-size: 2.25rem; }
   .hero h1 .line2 { font-size: 1.75rem; }
   .services-grid { grid-template-columns: 1fr; }
@@ -858,6 +900,12 @@ footer {
   .dashboard { padding: 1.25rem; }
   .dashboard-tabs { flex-direction: column; }
   .faq-item { padding: 1.25rem 1.5rem; }
+
+  /* Shrink text button on small phones */
+  .header-right-mobile .nav-text-btn {
+    padding: 0.4rem 0.7rem;
+    font-size: 0.75rem;
+  }
 }
 
 
