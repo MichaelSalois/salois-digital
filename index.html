@@ -37,6 +37,10 @@
           'value': 1.0,
           'currency': 'USD'
         });
+        gtag('event', 'click_to_call', {
+          event_category: 'engagement',
+          event_label: 'homepage'
+        });
       }
     });
   </script>
@@ -572,6 +576,19 @@
           phonePlayer.classList.add('playing');
           phonePlayer.classList.remove('paused');
           statusText.textContent = 'AI Agent handling call…';
+        }
+      });
+
+      /* ---- Demo play tracker (fires once per page load) ---- */
+      var demoPlayed = false;
+      audio.addEventListener('play', function() {
+        if (!demoPlayed) {
+          demoPlayed = true;
+          gtag('event', 'demo_play', {
+            event_category: 'engagement',
+            event_label: 'homepage'
+          });
+          fbq('trackCustom', 'DemoPlay');
         }
       });
     })();
